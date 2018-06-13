@@ -3,7 +3,7 @@
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
   <jar>D:\Documents\BernardCo\DateReminder\build\libs\DateReminder-1.0.jar</jar>
-  <outfile>D:\Documents\BernardCo\DateReminder\build\libs\datereminder.exe</outfile>
+  <outfile>D:\Documents\BernardCo\DateReminder\build\libs\DateReminder.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>

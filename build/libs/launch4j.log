@@ -1,7 +1,7 @@
 
 
 Version:	3.12
-CmdLine:	D:\Documents\BernardCo\DateReminder\build\libs\datereminder.exe --l4j-debug
+CmdLine:	D:\Documents\BernardCo\DateReminder\build\libs\DateReminder.exe --l4j-debug
 WOW64:		yes
 Working dir:	D:\Documents\BernardCo\DateReminder\build\libs\.
 Java min ver:	1.008.000
@@ -26,6 +26,6 @@ Check:		SOFTWARE\JavaSoft\JDK\9.0.4
 Ignore:		1.009.000_004
 Runtime used:	1.008.000_162 (64-bit)
 Launcher:	C:\Program Files\Java\jre1.8.0_162\bin\javaw.exe
-Launcher args:	-jar "D:\Documents\BernardCo\DateReminder\build\libs\datereminder.exe"
+Launcher args:	-jar "D:\Documents\BernardCo\DateReminder\build\libs\DateReminder.exe"
 Args length:	70/32768 chars
 Exit code:	0
