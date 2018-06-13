@@ -25,15 +25,15 @@ public class Reminder {
                 .setSummary(desc)
                 .setLocation("22G Old Hope Road, Kingston 5, St Andrew, Jamaica");
         
-        DateTime startDate = new DateTime(date.format(DateTimeFormatter.ISO_DATE_TIME));
+        DateTime startDate = new DateTime(date.format(DateTimeFormatter.ISO_DATE));
         EventDateTime start = new EventDateTime()
-                .setDateTime(startDate)
+                .setDate(startDate)
                 .setTimeZone("America/Jamaica");
         event.setStart(start);
         
-        DateTime endDate = new DateTime(date.plusHours(12).format(DateTimeFormatter.ISO_DATE_TIME));
+        DateTime endDate = new DateTime(date.format(DateTimeFormatter.ISO_DATE));
         EventDateTime end = new EventDateTime()
-                .setDateTime(endDate)
+                .setDate(endDate)
                 .setTimeZone("America/Jamaica");
         event.setEnd(end);
         
